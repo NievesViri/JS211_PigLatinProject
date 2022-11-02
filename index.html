@@ -6,14 +6,21 @@
     <script src="main.js"></script>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <h1>Learn Pig Latin!</h1>
     <hr/>
-    <div id="display-element"></div>
-    <form>
-      <input id="user-input" type="text">
+    <form id="pigLatin" autocomplete="off" target="_blank">
+    <div>
+      <label for="word"></label>
+      <input type="text" name="word" id="word">
+      </div>
       <!-- How do you get this input sent to the pigLatin() function? -->
-      <button onclick="pigLatin()">Translate</button>
+      <div>
+      <input type="button" value="Translate" onkeyup ="pigLatin()">
+    </div>
     </form>  
     <hr/>
   </body>
 </html>
+
+
+

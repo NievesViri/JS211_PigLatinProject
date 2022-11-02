@@ -13,6 +13,8 @@ const rl = readline.createInterface({
 
 const pigLatin = (str) => {
 // Your code here
+str = str.toLowerCase().trim()
+
   let vowels = [ 'a', 'e', 'i', 'o', 'u'];
   let newStr = "";
  if (vowels.indexOf(str[0])> -1) {
@@ -28,8 +30,8 @@ const pigLatin = (str) => {
   "ay";
   return newStr;
  }
-  
-
+ 
+ 
 }
 
 // the first function called in the program to get an input from the user
