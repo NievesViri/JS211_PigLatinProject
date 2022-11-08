@@ -9,11 +9,11 @@ const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
-const output = document.getElementbyId("output");
-const input = document.getElementById("text");
+// const output = document.getElementbyId("output");
+// const input = document.getElementById("word");
 const pigLatin = (str) => {
   // Your code herev
-  console.log(input.value)
+  // console.log(input.value);
   str = str.toLowerCase().trim();
 
   let vowels = ["a", "e", "i", "o", "u"];
